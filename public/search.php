@@ -173,6 +173,7 @@ include '../src/components/sidebar.php';
             font-size: 14px;
         }
     </style>
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
 </head>
 <body class="dark-mode">
 <div class="app-container">
