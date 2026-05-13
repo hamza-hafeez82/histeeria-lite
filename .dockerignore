@@ -1,0 +1,6 @@
+.git
+.gitignore
+.env
+nixpacks.toml
+render.yaml
+README.md

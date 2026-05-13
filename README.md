@@ -46,10 +46,32 @@ Histeeria is a lightweight yet powerful social media engine featuring real-time 
    php -S localhost:8000 -t public
    ```
 
-## Deployment (Railway)
+## Deployment
 
+Histeeria-lite is incredibly versatile and can be deployed anywhere PHP runs. We provide out-of-the-box configurations for modern cloud platforms.
+
+### Option 1: Docker (Universal)
+Run the application anywhere using the provided `Dockerfile` which packages the app with an optimized Apache web server.
+```bash
+# Build the image
+docker build -t histeeria-lite .
+
+# Run the container (pass your env vars)
+docker run -p 8080:80 \
+  -e SUPABASE_URL=your_url \
+  -e SUPABASE_ANON_KEY=your_key \
+  histeeria-lite
+```
+
+### Option 2: Render
+Histeeria is ready for one-click deployment on [Render](https://render.com) using the included `render.yaml` Blueprint and `Dockerfile`.
+1. Connect your GitHub repository to Render.
+2. Render will automatically detect the `render.yaml` Blueprint and prompt you to create a Web Service.
+3. Fill in your `SUPABASE_URL` and `SUPABASE_ANON_KEY` when prompted.
+4. Render will build the Docker image and deploy your app!
+
+### Option 3: Railway
 Histeeria is pre-configured for zero-downtime deployment on [Railway](https://railway.app). The included `nixpacks.toml` automatically provisions the PHP 8 runtime and serves the application from the `public` directory.
-
 1. Connect your GitHub repository to a new Railway project.
 2. Railway will automatically detect the `nixpacks.toml` file and build the app.
 3. Add your `SUPABASE_URL` and `SUPABASE_ANON_KEY` as environment variables in the Railway dashboard.
@@ -63,4 +85,4 @@ Row Level Security (RLS) is strictly enforced at the database level. Client-side
 
 This project is licensed under the MIT License.
 
-## Built With ❤️ by Hamza Hafeez
+### Built With ❤️ by Hamza Hafeez
