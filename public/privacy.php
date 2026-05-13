@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy | Histeeria</title>
     <link rel="stylesheet" href="assets/css/auth.css">
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
 </head>
 <body class="auth-page">
     <div class="auth-container">
