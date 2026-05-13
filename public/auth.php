@@ -14,6 +14,7 @@
     </script>
     <link rel="stylesheet" href="assets/css/auth.css?v=<?php echo time(); ?>">
     <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
 </head>
 
 <body class="auth-page">
