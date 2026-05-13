@@ -1,0 +1,5 @@
+.env
+public/assets/js/supabase.js.bak
+vendor/
+node_modules/
+.DS_Store
