@@ -19,6 +19,7 @@ require_once __DIR__ . '/../src/components/sidebar.php';
     </script>
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
 </head>
 <body>
     <div class="app-container">
