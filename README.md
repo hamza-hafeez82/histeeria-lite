@@ -6,7 +6,7 @@
 
 ## Overview
 
-Histeeria is a lightweight yet powerful social media engine featuring real-time interactions, persistent state management, and a premium UI/UX. Engineered for speed and scalability, the architecture uses a vanilla PHP routing layer connected directly to a Supabase PostgreSQL backend.
+Histeeria is a powerful social media engine featuring real-time interactions, persistent state management, and a premium UI/UX. Engineered for speed and scalability, the architecture uses a vanilla PHP routing layer connected directly to a Supabase PostgreSQL backend.
 
 ## Core Features
 
